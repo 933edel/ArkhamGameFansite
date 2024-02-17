@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.image1 {
+    background-image: url(./assets/593547.jpg);
+    min-height: 100%;
+}
+
+.image2 {
+    background-image: url(./assets/519564.jpg);
+    min-height: 60%;
+}
+
+.image3 {
+    background-image: url(./assets/601705.jpg);
+    min-height: 60%;
+}
+
+.image4 {
+    background-image: url(./assets/497508.jpg);
+    min-height: 60%;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-secondary {
+    height: 60vh;
+}
+
+.item {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    background: linear-gradient(225deg, #4088E9, #636467);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.light {
+    color: grey;
+    font-family: "Adamina", serif;
+    font-style: normal;
+    padding: 5rem;
+    text-align: center;
+}
+
+.light_bg {
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    font-family: "Adamina", serif;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 20px;
+    color: grey;
+}
